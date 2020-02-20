@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>pig game</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class=main_container>
+            <div class="container_player0">
+                <h1 id=player0>player1</h1>
+                <span id=global_points0>0</span>
+                <div class=div_current_points>
+                    <span>current</span>
+                    <span id=current_points0>0</span>
+                </div>
+            </div>
+            <div class="container_player1">
+                <h1 id=player1>player2</h1>
+                <span id=global_points1>0</span>
+                <div class=div_current_points>
+                    <span>current</span>
+                    <span id=current_points1>0</span>
+                </div>
+            </div>
+        </div>
+        <button id=new_game>NEW GAME</button>
+        <button id=roll_dice>ROLL DICE</button>
+        <button id=hold>HOLD</button>
+        <img id=imgdice1 src="imgs/dice-1.png" alt="dice" class=dice>
+        <img id=imgdice2 src="imgs/dice-1.png" alt="dice" class=dice>
+        <input type="text" placeholder="final score" class="final_score">
+        <script src="js/js.js"></script>
+    </body>
+</html>
